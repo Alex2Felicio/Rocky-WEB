@@ -1,0 +1,119 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+#home{
+	position: absolute;
+	margin: 0 auto;
+	
+}
+
+header{
+	padding: 15px 0;
+	background: url("imagens/home.png") no-repeat;
+	background-size: cover;
+	height: 1050px;
+	width: 100%;
+
+}
+header p{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 300;
+	line-height: 30px;
+}
+.painel {
+	position: relative;
+	width:1552px;
+	margin: 0 auto;
+}
+nav{
+	position: absolute;
+	top: 20px;
+	right: 140px;
+}
+nav li{
+	display: inline;
+	margin:0 0 0 24px;
+}
+nav a{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color:white;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+.slogan{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 320px;
+    line-height: 150px;
+}
+.textodestacado{
+	color: #EFE60B;
+}
+.divbtn{
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+}
+.btn{
+	background-color: #1CD4E9;
+	color: white;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	padding: 30px 25px;
+	border: none;
+	border-radius: 42px;
+	margin-top: 30px;
+	
+
+}
+/*-------------------------------*/
+#parte2{
+	position: absolute;
+	margin: 0 auto;
+
+}
+.conteudo{
+	padding: 15px 0;
+	background: url("imagens/parte2.png") no-repeat;
+	background-size: cover;
+	height: 5000px;
+	width: 100vw;
+}
+.conteudo h3{
+	font-size: 60px;
+	font-weight: bold;
+	margin-left: 140px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+	
+	
+}
+
+#rectangle{
+    width: 1211px;
+    height: 612px;
+    background:white;
+	position:absolute;
+	margin-left: 140px ;
+	box-shadow: 0 0 2em #00000094;
+}
+#rectangle p{
+	font-size: 20px;
+	padding: 48px;
+}
+
+
+
+
+
+
+
