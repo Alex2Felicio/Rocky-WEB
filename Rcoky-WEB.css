@@ -127,6 +127,9 @@ nav a{
 #rectangle p{
 	font-size: 20px;
 	padding: 48px;
+	text-align: center;
+	line-height: 2;
+    margin: 0;
 }
 /*textos em negrito*/
 .negrito{
@@ -244,11 +247,13 @@ h5{
     border-radius: 51px;
     opacity: 0.6;
 }
+/*texto caixa diferenciais*/
 .textcaixa{
-	font-size: 24;
+	font-size: 36px;
 	color: white;
 	text-align: center;
 	padding-top: 10px;
+	opacity: 1;
 }
 /*retangulo amarelo*/
 #borda{
