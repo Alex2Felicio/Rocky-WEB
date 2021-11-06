@@ -97,7 +97,7 @@ nav a{
 	background: url("imagens/parte2.png") no-repeat;
 	background-size: cover;
 	width: 1920px;
-    height: 4102px;
+    height: 2880px;
 }
 .conteudo h3{
 	font-size: 60px;
@@ -134,36 +134,39 @@ h4{
 
 #rectangle1{
 	top: 2200px;
-	left: 140px;
-	width: 514px;
-	height: 648px;
-	background: transparent url('imagens/sv1.png') no-repeat padding-box;
-	box-shadow: 0px 3px 15px #0000001A;
-	border-radius: 33px;
-	opacity: 1;
-	position: absolute;
+    left: 140px;
+    width: 514px;
+    height: 660px;
+    background: transparent url(imagens/sv1.png) no-repeat padding-box;
+    box-shadow: 0px 3px 15px #0000001a;
+    border-radius: 33px;
+    opacity: 1;
+    position: absolute;
+    background-position: center;
 }
 #rectangle2{
 	top: 2200px;
-	left: 703px;
-	width: 514px;
-	height: 648px;
-	background: transparent url('imagens/sv2.png') no-repeat padding-box;
-	box-shadow: 0px 3px 15px #0000001A;
-	border-radius: 33px;
-	opacity: 1;
-	position: absolute;
+    left: 703px;
+    width: 514px;
+    height: 660px;
+    background: transparent url(imagens/sv2.png) no-repeat padding-box;
+    box-shadow: 0px 3px 15px #0000001a;
+    border-radius: 33px;
+    opacity: 1;
+    position: absolute;
+    background-position: center;
 }
 #rectangle3{
 	top: 2200px;
-	left: 1266px;
-	width: 514px;
-	height: 648px;
-	background: transparent url('imagens/sv3.png') no-repeat padding-box;
-	box-shadow: 0px 3px 15px #0000001A;
-	border-radius: 33px;
-	opacity: 1;
-	position: absolute;
+    left: 1266px;
+    width: 514px;
+    height: 660px;
+    background: transparent url(imagens/sv3.png) no-repeat padding-box;
+    box-shadow: 0px 3px 15px #0000001a;
+    border-radius: 33px;
+    opacity: 1;
+    position: absolute;
+    background-position: center;
 }
 h5{
 	font-size: 60px;
@@ -172,6 +175,52 @@ h5{
     margin-bottom: 100px;
     margin-top: 1600px;
 	position: absolute;
+}
+#rectangle4{
+	top: 3100px;
+	left: 140px;
+	width: 389px;
+	height: 670px;
+    background: transparent url(imagens/s1.png) no-repeat padding-box;
+    background-position: center;
+    box-shadow: 0px 3px 15px #0000001a;
+    position: absolute;
+    border-radius: 51px;
+    opacity: 0.6;
+}
+#rectangle5{
+	top: 3100px;
+	left: 750px;
+	width: 389px;
+	height: 670px;
+    background: transparent url(imagens/s2.png) no-repeat padding-box;
+    background-position: center;
+    box-shadow: 0px 3px 15px #0000001a;
+    position: absolute;
+    border-radius: 51px;
+    opacity: 0.6;
+}
+#rectangle6{
+	top: 3100px;
+	left: 1386px;
+	width: 389px;
+	height: 670px;
+    background: transparent url(imagens/s3.png) no-repeat padding-box;
+    background-position: center;
+    box-shadow: 0px 3px 15px #0000001a;
+    position: absolute;
+    border-radius: 51px;
+    opacity: 0.9;
+}
+
+#borda{
+	top: 4000px;
+    left: 0px;
+    width: 1920px;
+    height: 83px;
+    background: #EFE60B  no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
 }
 
 
