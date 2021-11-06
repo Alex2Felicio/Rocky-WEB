@@ -122,6 +122,9 @@ nav a{
 	font-size: 20px;
 	padding: 48px;
 }
+#negrito{
+	font-weight: bold;
+}
 
 h4{
 	font-size: 60px;
@@ -219,6 +222,15 @@ h5{
     width: 1920px;
     height: 83px;
     background: #EFE60B  no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+#rectangle7{
+	top: 4080px;
+    left: 0px;
+    width: 1920px;
+    height: 940px;
+    background: #000000E6 0% 0% no-repeat padding-box;
     opacity: 1;
     position: absolute;
 }
