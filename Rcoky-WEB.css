@@ -1,23 +1,29 @@
 *{
 	font-family: 'Montserrat', sans-serif;
 }
-
+/*imagen home*/
 #home{
 	position: absolute;
 	margin: 0 auto;
 	
 }
-
+/*cabeçalho*/
 header{
-	padding: 15px 0;
+	/*padding: 15px 0;
 	background: url("imagens/home.png") no-repeat;
 	background-size: cover;
 	top: 0px;
     left: 0px;
     width: 1920px;
-    height: 1080px;
+    height: 1080px;*/
+	padding: 15px 0;
+	background: url("imagens/home.png") no-repeat;
+	background-size: cover;
+	width: 100%;
+    height: 1050px;
 
 }
+/*text cabeçalho*/
 header p{
 	color: white;
 	font-family: 'Montserrat', sans-serif;
@@ -32,21 +38,24 @@ header p{
 	left: 0px;
 	width: 1920px;
 	height: 1080px;
+	
 }
+/*imagen logo rocky*/
 h1{
 	padding-left: 140px;
 }
+/*menu*/
 nav{
 	position: absolute;
 	top: 20px;
 	right: 140px;
 }
+/*lista menu*/
 nav li{
 	display: inline;
 	margin:0 0 0 24px;
-	
-
 }
+/*fonte da lista menu*/
 nav a{
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
@@ -55,6 +64,7 @@ nav a{
 	font-size: 22px;
 	text-decoration: none;
 }
+/*text full digital perfomance*/
 .slogan{
 	font-family: 'Montserrat', sans-serif;
     font-size: 141px;
@@ -65,14 +75,17 @@ nav a{
     line-height: 100px;
 	padding-bottom: 100px;
 }
+/*texto destacado em baixo do slogan*/
 .textodestacado{
 	color: #EFE60B;
 }
+/*posição botão*/
 .divbtn{
 	width: 100%;
 	text-align: center;
 	margin-top: 70px;
 }
+/*botão entre em contato*/
 .btn{
 	background-color: #1CD4E9;
 	color: white;
@@ -82,157 +95,174 @@ nav a{
 	padding: 30px 25px;
 	border: none;
 	border-radius: 42px;
-	margin-top: 30px;
-	
-
+	margin-top: 30px;	
 }
-/*-------------------------------*/
-#parte2{
-	position: absolute;
-	margin: 0 auto;
-
-}
+/*main*/
+/*fundo da main*/
 .conteudo{
 	padding: 15px 0;
 	background: url("imagens/parte2.png") no-repeat;
 	background-size: cover;
-	width: 1920px;
+	width: 100%;
     height: 2880px;
 }
+/*text sobre*/
 .conteudo h3{
 	font-size: 60px;
 	font-weight: bold;
 	margin-left: 140px;
     margin-bottom: 100px;
     margin-top: 80px;
-	
 }
-
+/*retangulo branco*/
 #rectangle{
-	top: 1320px;
-	left: 140px;
 	width: 1211px;
 	height: 612px;
     background:white;
-	position:absolute;
 	box-shadow: 0px 0px 30px #0000004D;
 	opacity: 1;
+	margin-left: 140px;
 }
+/*text dentro do retangulo*/
 #rectangle p{
 	font-size: 20px;
 	padding: 48px;
 }
-#negrito{
+/*textos em negrito*/
+.negrito{
 	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	color:black;
 }
-
+/*distancia*/
+.services, .diferenciais{
+	width: 100%;
+	margin-top: 100px;
+}
+/*texto serviços*/
 h4{
 	font-size: 60px;
 	font-weight: bold;
 	margin-left: 140px;
     margin-bottom: 100px;
-    margin-top: 700px;
-	position: absolute;
 }
-
+/* imagens uma do lado da outra*/
+.services .itens, .diferenciais .itens{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+/*primeiro retangulo de serviços*/
 #rectangle1{
-	top: 2200px;
-    left: 140px;
     width: 514px;
     height: 660px;
     background: transparent url(imagens/sv1.png) no-repeat padding-box;
     box-shadow: 0px 3px 15px #0000001a;
     border-radius: 33px;
     opacity: 1;
-    position: absolute;
     background-position: center;
 }
+/*segundo retangulo de serviços*/
 #rectangle2{
-	top: 2200px;
-    left: 703px;
     width: 514px;
     height: 660px;
     background: transparent url(imagens/sv2.png) no-repeat padding-box;
     box-shadow: 0px 3px 15px #0000001a;
     border-radius: 33px;
     opacity: 1;
-    position: absolute;
     background-position: center;
 }
+/*terceiro retangulo de serviços*/
 #rectangle3{
-	top: 2200px;
-    left: 1266px;
     width: 514px;
     height: 660px;
     background: transparent url(imagens/sv3.png) no-repeat padding-box;
     box-shadow: 0px 3px 15px #0000001a;
     border-radius: 33px;
     opacity: 1;
-    position: absolute;
     background-position: center;
 }
+/*texto diferenciais*/
 h5{
 	font-size: 60px;
 	font-weight: bold;
 	margin-left: 140px;
     margin-bottom: 100px;
-    margin-top: 1600px;
-	position: absolute;
 }
+/*primeiro retangulo de diferenciais*/
 #rectangle4{
-	top: 3100px;
-	left: 140px;
+	width: 389px;
+	height: 670px;
+    background-color: black; 
+    background-position: center;
+    box-shadow: 0px 3px 15px #0000001a;
+    border-radius: 51px;
+}
+/*segundo retangulo de diferenciais*/
+#rectangle5{
+	width: 389px;
+	height: 670px;
+    background-color: black; 
+    background-position: center;
+    box-shadow: 0px 3px 15px #0000001a;
+    border-radius: 51px;
+}
+/*terceiro retangulo de diferenciais*/
+#rectangle6{
+	width: 389px;
+	height: 670px;
+    background-color: black; 
+    background-position: center;
+    box-shadow: 0px 3px 15px #0000001a;
+    border-radius: 51px;
+}
+/*primeira imagem de diferenciais*/
+.s1{
 	width: 389px;
 	height: 670px;
     background: transparent url(imagens/s1.png) no-repeat padding-box;
     background-position: center;
-    box-shadow: 0px 3px 15px #0000001a;
-    position: absolute;
     border-radius: 51px;
     opacity: 0.6;
 }
-#rectangle5{
-	top: 3100px;
-	left: 750px;
+/*segunda imagem de diferenciais*/
+.s2{
 	width: 389px;
 	height: 670px;
     background: transparent url(imagens/s2.png) no-repeat padding-box;
     background-position: center;
-    box-shadow: 0px 3px 15px #0000001a;
-    position: absolute;
     border-radius: 51px;
     opacity: 0.6;
 }
-#rectangle6{
-	top: 3100px;
-	left: 1386px;
+/*terceira imagem de diferenciais*/
+.s3{
 	width: 389px;
 	height: 670px;
     background: transparent url(imagens/s3.png) no-repeat padding-box;
     background-position: center;
-    box-shadow: 0px 3px 15px #0000001a;
-    position: absolute;
     border-radius: 51px;
-    opacity: 0.9;
+    opacity: 0.6;
 }
-
+.textcaixa{
+	font-size: 24;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+/*retangulo amarelo*/
 #borda{
-	top: 4000px;
-    left: 0px;
     width: 1920px;
     height: 83px;
     background: #EFE60B  no-repeat padding-box;
     opacity: 1;
-    position: absolute;
 }
+/*rodapé*/
 #rectangle7{
-	top: 4080px;
-    left: 0px;
     width: 1920px;
     height: 940px;
     background: #000000E6 0% 0% no-repeat padding-box;
     opacity: 1;
-    position: absolute;
 }
 
 
