@@ -64,6 +64,10 @@ nav a{
 	font-size: 22px;
 	text-decoration: none;
 }
+/*mudar cor*/
+nav a:hover{
+	color: #1CD4E9;
+}
 /*text full digital perfomance*/
 .slogan{
 	font-family: 'Montserrat', sans-serif;
@@ -96,6 +100,7 @@ nav a{
 	border: none;
 	border-radius: 42px;
 	margin-top: 30px;	
+	cursor: pointer;
 }
 /*main*/
 /*fundo da main*/
@@ -156,6 +161,12 @@ h4{
 	width: 100%;
 	justify-content: space-around;
 }
+.subtitle{
+	font-size: 30px;
+	color: #EFE60B;
+	padding: 37px;
+	text-align: center;
+}
 /*primeiro retangulo de serviços*/
 #rectangle1{
     width: 514px;
@@ -183,8 +194,25 @@ h4{
     background: transparent url(imagens/sv3.png) no-repeat padding-box;
     box-shadow: 0px 3px 15px #0000001a;
     border-radius: 33px;
-    opacity: 1;
+    opacity: 0.6;
     background-position: center;
+
+}
+#rectangle3a{
+	width: 514px;
+	height: 654px;
+    background-color: black; 
+    background-position: center;
+    box-shadow: 0px 3px 15px #0000001a;
+    border-radius: 33px;
+	
+}
+.textservicos{
+	font-size: 25px;
+	color: white;
+	padding: 30px;
+	text-align: center;
+	
 }
 /*texto diferenciais*/
 h5{
@@ -249,25 +277,28 @@ h5{
 }
 /*texto caixa diferenciais*/
 .textcaixa{
-	font-size: 36px;
+	font-size: 20px;
 	color: white;
+	padding: 30px;
 	text-align: center;
-	padding-top: 10px;
-	opacity: 1;
 }
 /*retangulo amarelo*/
 #borda{
-    width: 1920px;
-    height: 83px;
-    background: #EFE60B  no-repeat padding-box;
-    opacity: 1;
+    top: 4500px;
+	left: 0px;
+	width: 1920px;
+	height: 83px;
+	background: var(--unnamed-color-efe60b) 0% 0% no-repeat padding-box;
+	background: #EFE60B 0% 0% no-repeat padding-box;
+	opacity: 1;
 }
 /*rodapé*/
-#rectangle7{
-    width: 1920px;
-    height: 940px;
-    background: #000000E6 0% 0% no-repeat padding-box;
-    opacity: 1;
+#rectanglecinza{
+	width: 1920px;
+	height: 83px;
+	background: var(--unnamed-color-efe60b) 0% 0% no-repeat padding-box;
+	background: #EFE60B 0% 0% no-repeat padding-box;
+	opacity: 1;
 }
 
 
